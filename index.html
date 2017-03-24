@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style type = "text/css">
+			table {
+				border: 3px solid blue;
+				width:100%;
+				padding:16px;
+				border-spacing:16px;
+			}
+			tr {
+				background-color:yellow;
+			}
+			td {
+				border: 2px dashed red;
+			}
+			ul {
+				list-style-type:square;
+				list-style-image:url(bone.png);  /*always have the url(____) whenever dealing with images. Ex: url(check.png)*/
+				/*padding:0;*/ /*using unordered list for navigation column, have to set padding to 0, and list-style-type:none;*/
+			}
+			h1, p {color:red;}
+			span {font-weight:bold;
+				color:green;}
+			div {border:2px solid red;
+				position:absolute;
+				width:300px;
+				top:100px;
+				left:50%;
+			}
+			.redtext {color:red;}
+			.greengoblins {color:green;}
+		</style>
+	</head>
+	<!-- div can be used to arrange elements, without only keeping everything stacked on top of each other -->
+	<body>
+	<table border="1"> 
+		<th colspan="2"> <h1> Odd </h1>
+		</th>
+		<tr>
+			<td>Hey Ryan</td>
+			<td>Just some code</td>
+		</tr>
+		<tr>
+			<td> coolio </td>
+			<td> woo </td>
+		</tr>
+	</table>
+		<p class="redtext">Hello World <span class="greengoblins">World</span></p>
+	<div>
+		<ul>
+			<li>apple</li>
+			<li>pie</li>
+			<li>dumplings</li>
+
+		</ul>
+	</div>
+	</body>
+</html>
