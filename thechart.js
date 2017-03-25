@@ -7,6 +7,19 @@
  * https://github.com/nnnick/Chart.js/blob/master/LICENSE.md
  */
 
+// Using CommonJS
+var Chart = require('chart.js')
+var myChart = new Chart({...})
+
+// ES6
+import Chart from 'chart.js'
+let myChart = new Chart({...})
+
+// Using requirejs
+require(['path/to/Chartjs'], function(Chart){
+ var myChart = new Chart({...})
+})
+
 var radarOptions = {
     //Boolean - Whether to show lines for each scale point
 	scaleShowLine : true,
