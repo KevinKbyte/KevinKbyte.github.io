@@ -1,0 +1,37 @@
+html {
+  background: scale-lightness(#0B353F, -30%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  overflow: auto;
+
+  .title {
+    text-align: center;
+    color: #FFA500;
+  }
+
+  .title__link {
+    display: inline-block;
+    color: white;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.chart-demo {
+  float: left;
+  width: 640px;
+}
